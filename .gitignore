@@ -1,0 +1,125 @@
+# ------------------
+# 1. 操作系统通用
+# ------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
+
+# ------------------
+# 2. IDE / 编辑器
+# ------------------
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# ------------------
+# 3. 硬件设计 (KiCad / 立创EDA / 通用)
+# ------------------
+# KiCad 临时文件
+*.kicad_pcb-bak
+*.kicad_pcb-backup
+*.kicad_sch-bak
+fp-info-cache
+fp-lib-table
+sym-lib-table
+*.net
+*.xml.rej
+*.kicad_prl
+# KiCad 项目本地配置
+*.kicad_pro
+*.kicad_wk
+# 立创EDA 导出临时文件
+*.eprj
+*.epro
+# Gerber 输出
+*.gbr
+*.drl
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gko
+*.gto
+*.gtp
+*.gts
+*.gbrjob
+# 生产文件
+*-bom.csv
+*-cpl.csv
+*-pos.csv
+*.zip
+
+# ------------------
+# 4. 固件 (STM32) – Keil
+# ------------------
+# Keil MDK
+*.uvguix.*
+*.uvoptx
+*.uvprojx.user
+*.scvd
+*.axf
+*.crf
+*.d
+*.o
+*.dep
+*.map
+*.htm
+*.lnp
+*.iex
+Build/
+Listings/
+Objects/
+DebugConfig/
+*.jlink
+*.elf
+
+# ARM GCC 通用
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.lst
+*.o
+*.d
+*.a
+*.so
+*.exe
+
+# ------------------
+# 5. 文档生成临时文件
+# ------------------
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ------------------
+# 6. 日志、性能数据（只忽略临时日志，不忽略数据文件）
+# ------------------
+*.log
+*.tmp
+*.swp
+
+# ------------------
+# 7. 压缩包与临时交换文件
+# ------------------
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.bak
+*.old
+*.orig
