@@ -16,12 +16,12 @@
   </a>
   <br/>
   <a href="https://raw.githubusercontent.com/EERNINUO/ArbWave30/main/LICENSE" style="margin: 2px;">
-    <img src="https://img.shields.io/github/license/EERNINUO/ArbWave30" alt="许可证">
+    <img src="https://img.shields.io/badge/License-GPL--3.0-red" alt="许可证">
   </a>
   <a href="https://raw.githubusercontent.com/EERNINUO/ArbWave30/main/LICENSE" style="margin: 2px;">
     <img src="https://img.shields.io/badge/License-CC--BY--SA--4.0-green" alt="许可证">
   </a>
-    <a href="https://raw.githubusercontent.com/EERNINUO/ArbWave30/main/LICENSE" style="margin: 2px;">
+  <a href="https://raw.githubusercontent.com/EERNINUO/ArbWave30/main/LICENSE" style="margin: 2px;">
     <img src="https://img.shields.io/badge/License-CERN--OHL--S--2.0-blue" alt="许可证">
   </a>
 </p>
@@ -60,17 +60,9 @@
 
 ## 🖥️ 硬件架构概览
 
-```
-[应变传感器] → [仪表放大器(4x)] → [1/4衰减] → [4阶LPF] → [STM32G473 ADC]
-                                                                   │
-外部触发信号 ─→ [CMP整形] ─→ [TIM触发] ─→ [ADC注入组采样] ←─┐
-                                                                   │
-                                                          [SRAM缓冲]
-                                                                   │
-USB/串口 ←─────────────────────────────────────────────── [MCU核心]
-```
+![总览](/docs/pic/总览.drawio.png)
 
-详细原理框图及模块说明见 [硬件设计文档](docs/hardware_design.md)。
+详细原理框图及模块说明见 [硬件设计文档](docs/硬件设计文档.md)。
 
 ## 🛠️ 开发工具与环境
 
