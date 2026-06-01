@@ -1,0 +1,481 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="BVc5tkaGCWs7Vx98BqWz">
+    <mxGraphModel dx="2667" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-164" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" value="STM32G473QE" vertex="1">
+          <mxGeometry height="240" width="540" x="740" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-180" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ADC1" vertex="1">
+          <mxGeometry height="50" width="80" x="760" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-181" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ADC2" vertex="1">
+          <mxGeometry height="50" width="80" x="760" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-182" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-115" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.602;entryDx=0;entryDy=0;curved=0;entryPerimeter=0;strokeColor=#FF0000;" target="GzB-2lTkKUlHvP3OIL_u-180" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="315" />
+              <mxPoint x="610" y="310" />
+            </Array>
+            <mxPoint x="730" y="260" as="sourcePoint" />
+            <mxPoint x="780" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-183" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-129" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="485" />
+              <mxPoint x="610" y="310" />
+            </Array>
+            <mxPoint x="800" y="300" as="sourcePoint" />
+            <mxPoint x="760" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-186" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="COMP" vertex="1">
+          <mxGeometry height="50" width="80" x="760" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-190" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-186" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-187" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AUX" vertex="1">
+          <mxGeometry height="50" width="80" x="650" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-188" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="310" as="sourcePoint" />
+            <mxPoint x="660" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-189" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="370" as="sourcePoint" />
+            <mxPoint x="700" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-247" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00FF00;" target="GzB-2lTkKUlHvP3OIL_u-181" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="375" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="160" width="500" x="70" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-109" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-112" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-110" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="应变传感器" vertex="1">
+          <mxGeometry height="50" width="100" x="-30" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-111" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-114" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="仪表放大器&lt;div&gt;（4 V/V）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="97" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-239" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-234" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="四阶低通滤波&lt;br&gt;（LPF）" vertex="1">
+          <mxGeometry height="50" width="100" x="223" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入滤波" vertex="1">
+          <mxGeometry height="50" width="100" x="460" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-116" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="激励源" vertex="1">
+          <mxGeometry height="50" width="100" x="97" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-117" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-116" style="endArrow=classic;html=1;rounded=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;curved=0;exitX=-0.016;exitY=0.212;exitDx=0;exitDy=0;exitPerimeter=0;" target="GzB-2lTkKUlHvP3OIL_u-110" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5" y="220" />
+            </Array>
+            <mxPoint x="90" y="230" as="sourcePoint" />
+            <mxPoint x="10" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-118" connectable="0" parent="GzB-2lTkKUlHvP3OIL_u-117" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.5V" vertex="1">
+          <mxGeometry relative="1" x="-0.1788" y="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-119" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-110" style="endArrow=classic;html=1;rounded=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.802;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="GzB-2lTkKUlHvP3OIL_u-116" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="45" y="250" />
+            </Array>
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="110" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-120" connectable="0" parent="GzB-2lTkKUlHvP3OIL_u-119" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="远程感测" vertex="1">
+          <mxGeometry relative="1" x="0.2117" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-105" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="160" width="500" x="70" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-5" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="应变传感器" vertex="1">
+          <mxGeometry height="50" width="100" x="-30" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-6" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="仪表放大器&lt;div&gt;（4 V/V）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="97" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-238" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-235" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="四阶低通滤波&lt;br&gt;（LPF）" vertex="1">
+          <mxGeometry height="50" width="100" x="223" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入滤波" vertex="1">
+          <mxGeometry height="50" width="100" x="460" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="激励源" vertex="1">
+          <mxGeometry height="50" width="100" x="97" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-48" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-47" style="endArrow=classic;html=1;rounded=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;curved=0;exitX=-0.016;exitY=0.212;exitDx=0;exitDy=0;exitPerimeter=0;" target="GzB-2lTkKUlHvP3OIL_u-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5" y="50" />
+            </Array>
+            <mxPoint x="90" y="60" as="sourcePoint" />
+            <mxPoint x="10" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-50" connectable="0" parent="GzB-2lTkKUlHvP3OIL_u-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.5V" vertex="1">
+          <mxGeometry relative="1" x="-0.1788" y="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-49" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-1" style="endArrow=classic;html=1;rounded=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.802;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="GzB-2lTkKUlHvP3OIL_u-47" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="45" y="80" />
+            </Array>
+            <mxPoint x="60" y="150" as="sourcePoint" />
+            <mxPoint x="110" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-51" connectable="0" parent="GzB-2lTkKUlHvP3OIL_u-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="远程感测" vertex="1">
+          <mxGeometry relative="1" x="0.2117" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-184" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#3333FF;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="150" />
+              <mxPoint x="630" y="370" />
+            </Array>
+            <mxPoint x="560" y="150" as="sourcePoint" />
+            <mxPoint x="760" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-185" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#3333FF;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="660" />
+              <mxPoint x="630" y="370" />
+            </Array>
+            <mxPoint x="560" y="660" as="sourcePoint" />
+            <mxPoint x="760" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="160" width="500" x="70" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-123" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-126" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="应变传感器" vertex="1">
+          <mxGeometry height="50" width="100" x="-30" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-125" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-128" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="仪表放大器&lt;div&gt;（4 V/V）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="97" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-237" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-233" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-128" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="四阶低通滤波&lt;br&gt;（LPF）" vertex="1">
+          <mxGeometry height="50" width="100" x="223" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入滤波" vertex="1">
+          <mxGeometry height="50" width="100" x="460" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="激励源" vertex="1">
+          <mxGeometry height="50" width="100" x="97" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-131" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-130" style="endArrow=classic;html=1;rounded=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;curved=0;exitX=-0.016;exitY=0.212;exitDx=0;exitDy=0;exitPerimeter=0;" target="GzB-2lTkKUlHvP3OIL_u-124" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5" y="390" />
+            </Array>
+            <mxPoint x="90" y="400" as="sourcePoint" />
+            <mxPoint x="10" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-132" connectable="0" parent="GzB-2lTkKUlHvP3OIL_u-131" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.5V" vertex="1">
+          <mxGeometry relative="1" x="-0.1788" y="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-133" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-124" style="endArrow=classic;html=1;rounded=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.802;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="GzB-2lTkKUlHvP3OIL_u-130" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="45" y="420" />
+            </Array>
+            <mxPoint x="60" y="490" as="sourcePoint" />
+            <mxPoint x="110" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-134" connectable="0" parent="GzB-2lTkKUlHvP3OIL_u-133" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="远程感测" vertex="1">
+          <mxGeometry relative="1" x="0.2117" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="160" width="500" x="70" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-137" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-140" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-138" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="应变传感器" vertex="1">
+          <mxGeometry height="50" width="100" x="-30" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-139" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-142" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="仪表放大器&lt;div&gt;（4 V/V）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="97" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-236" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-232" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="四阶低通滤波&lt;br&gt;（LPF）" vertex="1">
+          <mxGeometry height="50" width="100" x="223" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-143" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入滤波" vertex="1">
+          <mxGeometry height="50" width="100" x="460" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="激励源" vertex="1">
+          <mxGeometry height="50" width="100" x="97" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-145" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-144" style="endArrow=classic;html=1;rounded=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;curved=0;exitX=-0.016;exitY=0.212;exitDx=0;exitDy=0;exitPerimeter=0;" target="GzB-2lTkKUlHvP3OIL_u-138" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5" y="560" />
+            </Array>
+            <mxPoint x="90" y="570" as="sourcePoint" />
+            <mxPoint x="10" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-146" connectable="0" parent="GzB-2lTkKUlHvP3OIL_u-145" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.5V" vertex="1">
+          <mxGeometry relative="1" x="-0.1788" y="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-147" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-138" style="endArrow=classic;html=1;rounded=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.802;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="GzB-2lTkKUlHvP3OIL_u-144" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="45" y="590" />
+            </Array>
+            <mxPoint x="60" y="660" as="sourcePoint" />
+            <mxPoint x="110" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-148" connectable="0" parent="GzB-2lTkKUlHvP3OIL_u-147" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="远程感测" vertex="1">
+          <mxGeometry relative="1" x="0.2117" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-243" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-143" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-232" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="单端转差分、&lt;div&gt;衰减（1/4 V/V）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="340" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-242" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-129" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-233" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="单端转差分、&lt;div&gt;衰减（1/4 V/V）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="340" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-241" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-115" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-234" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="单端转差分、&lt;div&gt;衰减（1/4 V/V）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="340" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-240" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-235" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="单端转差分、&lt;div&gt;衰减（1/4 V/V）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="340" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-248" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00FF00;" target="GzB-2lTkKUlHvP3OIL_u-180" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="375" />
+              <mxPoint x="860" y="305" />
+            </Array>
+            <mxPoint x="870" y="375" as="sourcePoint" />
+            <mxPoint x="930" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-249" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="870" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-250" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="GzB-2lTkKUlHvP3OIL_u-249" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="440" />
+              <mxPoint x="940" y="390" />
+            </Array>
+            <mxPoint x="840" y="440" as="sourcePoint" />
+            <mxPoint x="890" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-272" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-271" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-251" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DMA" vertex="1">
+          <mxGeometry height="50" width="80" x="960" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-254" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TIM2" vertex="1">
+          <mxGeometry height="50" width="80" x="960" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-258" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-254" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.01;exitY=0.342;exitDx=0;exitDy=0;exitPerimeter=0;" target="GzB-2lTkKUlHvP3OIL_u-249" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="400" as="sourcePoint" />
+            <mxPoint x="1070" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-260" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-181" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.202;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="GzB-2lTkKUlHvP3OIL_u-251" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="360" />
+              <mxPoint x="870" y="305" />
+            </Array>
+            <mxPoint x="1040" y="440" as="sourcePoint" />
+            <mxPoint x="1090" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-261" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GzB-2lTkKUlHvP3OIL_u-251" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="290" />
+              <mxPoint x="870" y="305" />
+            </Array>
+            <mxPoint x="840" y="290" as="sourcePoint" />
+            <mxPoint x="940" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-264" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-254" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-282" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="GzB-2lTkKUlHvP3OIL_u-279" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-292" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-291" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-263" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cortex-M4F" vertex="1">
+          <mxGeometry height="50" width="80" x="1070" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-265" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DAC" vertex="1">
+          <mxGeometry height="50" width="80" x="960" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-266" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-265" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="GzB-2lTkKUlHvP3OIL_u-186" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="460" as="sourcePoint" />
+            <mxPoint x="950" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-270" connectable="0" parent="GzB-2lTkKUlHvP3OIL_u-266" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="VREF" vertex="1">
+          <mxGeometry relative="1" x="0.1845" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-273" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="GzB-2lTkKUlHvP3OIL_u-263" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-271" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RAM" vertex="1">
+          <mxGeometry height="50" width="80" x="1070" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-275" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-263" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="GzB-2lTkKUlHvP3OIL_u-265" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1090" y="445" />
+            </Array>
+            <mxPoint x="1080" y="410" as="sourcePoint" />
+            <mxPoint x="1180" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-284" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-283" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-279" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB" vertex="1">
+          <mxGeometry height="50" width="80" x="1180" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-280" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USART1" vertex="1">
+          <mxGeometry height="50" width="80" x="1180" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-281" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" target="GzB-2lTkKUlHvP3OIL_u-280" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="445" />
+            </Array>
+            <mxPoint x="1130" y="400" as="sourcePoint" />
+            <mxPoint x="1080" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-283" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB Type-A" vertex="1">
+          <mxGeometry height="50" width="80" x="1300" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-285" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.475;entryY=0.941;entryDx=0;entryDy=0;entryPerimeter=0;" target="GzB-2lTkKUlHvP3OIL_u-283" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1338" y="445" />
+            </Array>
+            <mxPoint x="1260" y="444.8" as="sourcePoint" />
+            <mxPoint x="1360" y="444.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-287" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SRAM" vertex="1">
+          <mxGeometry height="50" width="80" x="1180" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-293" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GzB-2lTkKUlHvP3OIL_u-287" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-288" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FMC" vertex="1">
+          <mxGeometry height="50" width="80" x="1180" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-289" edge="1" parent="1" source="GzB-2lTkKUlHvP3OIL_u-263" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" target="GzB-2lTkKUlHvP3OIL_u-288" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="340" />
+              <mxPoint x="1160" y="340" />
+              <mxPoint x="1160" y="307" />
+            </Array>
+            <mxPoint x="1130" y="340" as="sourcePoint" />
+            <mxPoint x="1230" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzB-2lTkKUlHvP3OIL_u-291" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="QSPI&lt;div&gt;Flash&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="80" x="1070" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
