@@ -27,6 +27,7 @@
 </p>
 
 </div>
+
 ---
 
 ## 📌 项目简介
@@ -76,18 +77,18 @@
 
 ## 📁 仓库结构
 4ch-Strain-Gauge-Collector/
-├── docs/                     # 设计文档
-│   ├── pic/                  # 文档中用到的图片
-│   ├── hardware_design.md    # 硬件设计文档（原理图、PCB、BOM）
-│   └──  LICENSE              # CC BY-SA 4.0 
-├── simulation/               # LTspice 仿真文件
-├── firmware/                 # CubeMX工程与生成代码（CubeMX + Keil）
-│   └── STM32G473.ioc         # CubeMX 配置文件
-├── hardware/                 # 硬件设计源文件
-|   ├── E4                    # Kicad 原理图与 PCB 文件
-│   └── LICENSE # CERN-OHL-S-2.0   
-├── README.md                 # 项目说明
-└── LICENSE                   # GPL-3.0
+├── docs/                     # 设计文档  
+│   ├── pic/                  # 文档中用到的图片  
+│   ├── hardware_design.md    # 硬件设计文档（原理图、PCB、BOM）  
+│   └──  LICENSE              # CC BY-SA 4.0   
+├── simulation/               # LTspice 仿真文件  
+├── firmware/                 # CubeMX工程与生成代码（CubeMX + Keil）  
+│   └── STM32G473.ioc         # CubeMX 配置文件  
+├── hardware/                 # 硬件设计源文件  
+|   ├── E4                    # Kicad 原理图与 PCB 文件  
+│   └── LICENSE # CERN-OHL-S-2.0     
+├── README.md                 # 项目说明  
+└── LICENSE                   # GPL-3.0  
 
 ## 📜 许可证
 Copyright © 2026 EERNINUO
