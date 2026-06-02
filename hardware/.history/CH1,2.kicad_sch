@@ -2129,6 +2129,14 @@
 		(color 0 0 0 0)
 		(uuid "ff9b871f-8bf5-4484-a5cb-eabb10b42e5e")
 	)
+	(no_connect
+		(at 64.77 41.91)
+		(uuid "417ab0c2-9dcb-41a4-ada6-c48c31d5238e")
+	)
+	(no_connect
+		(at 82.55 41.91)
+		(uuid "a038030b-e638-476e-9227-4b02950ca2dc")
+	)
 	(wire
 		(pts
 			(xy 101.6 60.96) (xy 101.6 68.58)
@@ -2441,6 +2449,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 49.53) (xy 85.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29319f82-0060-4373-82cc-551df84b43aa")
+	)
+	(wire
+		(pts
 			(xy 77.47 166.37) (xy 77.47 167.64)
 		)
 		(stroke
@@ -2488,6 +2506,16 @@
 			(type default)
 		)
 		(uuid "33a4a565-22ef-4f6c-86b6-b6ad10201575")
+	)
+	(wire
+		(pts
+			(xy 57.15 44.45) (xy 64.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e9bee8-ec4a-466f-a8ab-e5b6ccec3012")
 	)
 	(wire
 		(pts
@@ -2608,6 +2636,16 @@
 			(type default)
 		)
 		(uuid "54b80b6b-b8df-4133-8167-0f06530b1b29")
+	)
+	(wire
+		(pts
+			(xy 57.15 46.99) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ccf677-172d-4823-bfb2-90a5856648c8")
 	)
 	(wire
 		(pts
@@ -3381,6 +3419,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 49.53) (xy 85.09 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f314cd06-8f23-44c6-a882-9a6e2e482f2d")
+	)
+	(wire
+		(pts
 			(xy 77.47 157.48) (xy 77.47 158.75)
 		)
 		(stroke
@@ -3468,6 +3516,16 @@
 			(justify left bottom)
 		)
 		(uuid "130da557-33ec-4d2a-b910-47aac210dc49")
+	)
+	(label "RS1-"
+		(at 58.42 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16731804-453c-401a-bd6d-5532f818987f")
 	)
 	(label "Ctrl1"
 		(at 55.88 68.58 0)
@@ -3578,6 +3636,16 @@
 			(justify left bottom)
 		)
 		(uuid "ab1a6850-8a9a-46e0-9be5-43a177bab3cd")
+	)
+	(label "RS1+"
+		(at 58.42 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac835aba-1260-436f-9101-210090524411")
 	)
 	(label "D1Q+"
 		(at 26.67 166.37 0)
@@ -5552,6 +5620,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+4V")
+		(at 64.77 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b13c38-c99b-42c3-9daf-7c9891307dc2")
+		(property "Reference" "#PWR036"
+			(at 68.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-4VA"
+			(at 60.96 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
+			(at 64.77 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccb9a939-b7db-4c67-9672-4177ab9f7aa5")
+		)
+		(instances
+			(project "E4"
+				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/19d13e66-38d6-49c3-ac36-dcbde1979dd4"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 60.96 270)
 		(mirror x)
@@ -7383,6 +7530,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+4V")
+		(at 82.55 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b0889b-0e7b-4345-8ad4-5d0647949fd9")
+		(property "Reference" "#PWR037"
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+4VA"
+			(at 86.36 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
+			(at 82.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e136983-f074-47a3-b5b0-759e857ad764")
+		)
+		(instances
+			(project "E4"
+				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/19d13e66-38d6-49c3-ac36-dcbde1979dd4"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 190.5 0)
 		(mirror y)
@@ -8018,6 +8244,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Instrumentation:INA828IDR")
+		(at 73.66 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce19773d-4a60-4bb8-ade7-5210effce0ec")
+		(property "Reference" "U7"
+			(at 68.834 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA828"
+			(at 74.422 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Infineon_PG-DSO-8-43"
+			(at 73.66 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/ina828"
+			(at 73.66 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "INA828IDR"
+			(at 73.66 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 73.66 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C544342"
+			(at 73.66 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 73.66 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "INA828IDR"
+			(at 73.66 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "fd140b85-d37c-40ff-8ade-b45d5a139f3e")
+		)
+		(pin "5"
+			(uuid "eef6851c-d8f8-4683-9009-b52ec061b7ab")
+		)
+		(pin "6"
+			(uuid "3d7aa91e-d342-4f4b-99f5-e7ab8aa7424f")
+		)
+		(pin "7"
+			(uuid "4afdc7ec-dd73-408c-8e37-8e9bd034d111")
+		)
+		(pin "3"
+			(uuid "f0a58a0e-7ee1-45b9-bd00-3feacc4f7465")
+		)
+		(pin "1"
+			(uuid "0f4207e8-7788-45c1-98f8-4623647d5961")
+		)
+		(pin "2"
+			(uuid "41ceed2c-739e-4a0c-ae3e-7bf32f6efc43")
+		)
+		(pin "8"
+			(uuid "b2bf1012-69ee-47e9-a18b-c1d22ab48c0d")
+		)
+		(instances
+			(project "E4"
+				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/19d13e66-38d6-49c3-ac36-dcbde1979dd4"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA2192IDR")
 		(at 224.79 76.2 0)
 		(mirror x)
@@ -8330,6 +8708,84 @@
 			(project "E4"
 				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/19d13e66-38d6-49c3-ac36-dcbde1979dd4"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dccfaf86-3008-45ff-a897-d513aa827aed")
+		(property "Reference" "#PWR038"
+			(at 85.09 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e3c2234-eec9-498b-a8a2-305eb80d31b7")
+		)
+		(instances
+			(project "E4"
+				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/19d13e66-38d6-49c3-ac36-dcbde1979dd4"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
