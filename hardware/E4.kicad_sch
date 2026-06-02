@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 72.39 22.86)
+		(size 19.05 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "19d13e66-38d6-49c3-ac36-dcbde1979dd4")
+		(property "Sheetname" "CH1,2"
+			(at 72.39 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CH1,2.kicad_sch"
+			(at 72.39 39.9546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "E4"
+				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 35.56 29.21)
 		(size 26.67 21.59)
 		(exclude_from_sim no)
