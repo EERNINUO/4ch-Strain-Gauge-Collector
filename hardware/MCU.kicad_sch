@@ -6614,24 +6614,12 @@
 		(uuid "15ae715c-6bde-45e5-845a-a348646e796b")
 	)
 	(no_connect
-		(at 187.96 146.05)
-		(uuid "2a2d6ac1-d80d-4870-84b6-f083eb49fb5d")
-	)
-	(no_connect
-		(at 224.79 124.46)
-		(uuid "2fc505a4-8eb5-4692-8369-c8d03eb76416")
-	)
-	(no_connect
 		(at 134.62 40.64)
 		(uuid "33830983-4127-459f-bdb3-32faa138c4fc")
 	)
 	(no_connect
 		(at 134.62 55.88)
 		(uuid "37f4624c-0e8b-41b6-a48d-c885ac158fc4")
-	)
-	(no_connect
-		(at 224.79 127)
-		(uuid "3fd23c1a-bbd0-42ed-9c87-761331c992ff")
 	)
 	(no_connect
 		(at 87.63 39.37)
@@ -6652,10 +6640,6 @@
 	(no_connect
 		(at 181.61 38.1)
 		(uuid "6ef98a1f-a491-4c4f-8bd9-897ebb0e698d")
-	)
-	(no_connect
-		(at 187.96 143.51)
-		(uuid "6f5fbc49-ed18-4b4b-8deb-5861208f17af")
 	)
 	(no_connect
 		(at 218.44 45.72)
@@ -7448,6 +7432,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 143.51) (xy 187.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb1a622-4cbf-49f9-9b76-dc87e79c4c6d")
+	)
+	(wire
+		(pts
 			(xy 50.8 107.95) (xy 50.8 109.22)
 		)
 		(stroke
@@ -8108,6 +8102,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 127) (xy 224.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da363da-ceb4-4351-823e-49e304a51c12")
+	)
+	(wire
+		(pts
 			(xy 236.22 38.1) (xy 243.84 38.1)
 		)
 		(stroke
@@ -8135,6 +8139,16 @@
 			(type default)
 		)
 		(uuid "7ef60432-58d6-4e30-b644-adcdeb7c9f2e")
+	)
+	(wire
+		(pts
+			(xy 190.5 146.05) (xy 187.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f73c6b0-8c8a-44f0-a339-2afb3cb995dd")
 	)
 	(wire
 		(pts
@@ -8285,6 +8299,16 @@
 			(type default)
 		)
 		(uuid "87ebf3d4-4192-4266-bcc2-d05168c72f52")
+	)
+	(wire
+		(pts
+			(xy 228.6 124.46) (xy 224.79 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab5d1aa-3736-495b-80dd-ce0c6f9590e0")
 	)
 	(wire
 		(pts
@@ -10618,6 +10642,17 @@
 		)
 		(uuid "1072ec98-cfdf-408a-8a14-1064211eeefb")
 	)
+	(hierarchical_label "Ctrl4"
+		(shape input)
+		(at 190.5 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b08db8c-16e9-49f9-a9ec-5d906766512c")
+	)
 	(hierarchical_label "USART"
 		(shape input)
 		(at 151.13 157.48 0)
@@ -10661,6 +10696,17 @@
 			(justify left)
 		)
 		(uuid "3279b668-3137-4ce2-b71e-cc930894c6cf")
+	)
+	(hierarchical_label "Ctrl2"
+		(shape input)
+		(at 228.6 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f5c1ac8-475f-45e1-bdb8-1af1bd9cd686")
 	)
 	(hierarchical_label "CH3-"
 		(shape input)
@@ -10728,6 +10774,17 @@
 		)
 		(uuid "adc5b40c-84cf-416c-bff1-f746811994f7")
 	)
+	(hierarchical_label "Ctrl3"
+		(shape input)
+		(at 190.5 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce07a0db-6a64-439d-b8d6-aab772c82b0b")
+	)
 	(hierarchical_label "CH1+"
 		(shape input)
 		(at 187.96 110.49 0)
@@ -10749,6 +10806,17 @@
 			(justify left)
 		)
 		(uuid "f8254a76-4557-4774-ad13-a4b94e3db19b")
+	)
+	(hierarchical_label "Ctrl1"
+		(shape input)
+		(at 228.6 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fed6f1dc-8342-4459-bde5-0f6632ae6c93")
 	)
 	(rule_area
 		(exclude_from_sim no)
@@ -13970,7 +14038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 21.8948 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -15346,7 +15414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.5252 119.38 0)
 			(hide yes)
 			(show_name no)

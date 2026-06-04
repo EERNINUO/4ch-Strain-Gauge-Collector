@@ -6650,6 +6650,17 @@
 			)
 		)
 	)
+	(hierarchical_label "Ctrl4"
+		(shape input)
+		(at 64.77 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d96e7ac-e142-4be2-9c4e-f0e742b03e22")
+	)
 	(hierarchical_label "D4Q+"
 		(shape input)
 		(at 243.84 90.17 0)
@@ -6660,6 +6671,17 @@
 			(justify left)
 		)
 		(uuid "67ee3770-aa41-45cf-9756-7c57f443e279")
+	)
+	(hierarchical_label "Ctrl3"
+		(shape input)
+		(at 63.5 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5f0228c-a34f-454b-98d2-269fa8405046")
 	)
 	(hierarchical_label "D4Q-"
 		(shape input)
