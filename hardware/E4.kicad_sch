@@ -5815,7 +5815,7 @@
 		)
 		(uuid "ce6b7ef0-2cee-4b72-9376-eb905f2f316b")
 	)
-	(label "USB.VBUS_Check"
+	(label "USB.USB_Check"
 		(at 128.27 35.56 180)
 		(effects
 			(font
@@ -8149,16 +8149,6 @@
 				(justify left)
 			)
 		)
-		(pin "V_{REF}" input
-			(at 101.6 72.39 270)
-			(uuid "c82d92fc-24bf-4c4e-9396-8a38802affae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CTrig0" input
 			(at 78.74 64.77 180)
 			(uuid "494432ae-766a-45c6-aa75-a469814bf431")
@@ -8219,6 +8209,16 @@
 				(justify left)
 			)
 		)
+		(pin "V_{REF_OUT}" input
+			(at 101.6 72.39 270)
+			(uuid "178a8ef5-c7eb-4746-bcba-a489c6f46c5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "E4"
 				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19"
@@ -8265,9 +8265,9 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{REF}" input
+		(pin "V_{REF_OUT}" input
 			(at 68.58 83.82 0)
-			(uuid "43bad40a-7c64-4337-8104-adfad4555dde")
+			(uuid "ee1a9094-3334-4051-9a2c-2a9d61c996eb")
 			(effects
 				(font
 					(size 1.27 1.27)

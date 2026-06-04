@@ -6532,6 +6532,30 @@
 	)
 	(global_label "V_{REF}"
 		(shape input)
+		(at 52.07 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "553f9dad-1943-4d6a-813c-3c02b05b6370")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.1393 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V_{REF}"
+		(shape input)
 		(at 250.19 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6623,6 +6647,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "V_{REF}"
+		(shape input)
+		(at 53.34 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb5454c0-346c-43cc-a6cd-0e58ae6c5704")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.4093 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -12936,85 +12984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+4V")
-		(at 52.07 17.78 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "778b9e51-1833-4896-9ad2-4b0db69a5cc7")
-		(property "Reference" "#PWR122"
-			(at 55.88 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2.5VA"
-			(at 48.26 17.7799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 52.07 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf631cd0-bd5f-4558-91f5-1cfbe5f75854")
-		)
-		(instances
-			(project "E4"
-				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/19d13e66-38d6-49c3-ac36-dcbde1979dd4"
-					(reference "#PWR122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 168.91 162.56 0)
 		(mirror x)
@@ -17406,85 +17375,6 @@
 			(project "E4"
 				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/19d13e66-38d6-49c3-ac36-dcbde1979dd4"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+4V")
-		(at 53.34 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c238a215-9c46-4cec-9e14-f104348e07ab")
-		(property "Reference" "#PWR25"
-			(at 57.15 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2.5VA"
-			(at 49.53 63.4999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 53.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61a49947-d7f7-4257-8fa8-078ab19ef4da")
-		)
-		(instances
-			(project "E4"
-				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/19d13e66-38d6-49c3-ac36-dcbde1979dd4"
-					(reference "#PWR25")
 					(unit 1)
 				)
 			)

@@ -6556,6 +6556,30 @@
 	)
 	(global_label "V_{REF}"
 		(shape input)
+		(at 53.34 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "304de531-ebf6-4094-b0ab-37719a2e4be2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.4093 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V_{REF}"
+		(shape input)
 		(at 252.73 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6639,6 +6663,30 @@
 		(uuid "b929cdf6-d879-42d1-8af7-4b6138724c88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 211.5093 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V_{REF}"
+		(shape input)
+		(at 54.61 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6fef6b6-75bb-427d-8d89-b6f40e130423")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.6793 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12146,85 +12194,6 @@
 			(project "E4"
 				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/9fef91b3-c249-4f89-a1c5-148e02aa4c86"
 					(reference "C118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+4V")
-		(at 53.34 16.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79c6c49a-8321-4f5f-b341-58747a8e8a68")
-		(property "Reference" "#PWR124"
-			(at 57.15 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2.5VA"
-			(at 49.53 16.5099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 53.34 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a144255-1f57-43be-ba30-33cc5ba91ba3")
-		)
-		(instances
-			(project "E4"
-				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/9fef91b3-c249-4f89-a1c5-148e02aa4c86"
-					(reference "#PWR124")
 					(unit 1)
 				)
 			)
@@ -19787,85 +19756,6 @@
 			(project "E4"
 				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/9fef91b3-c249-4f89-a1c5-148e02aa4c86"
 					(reference "#PWR106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+4V")
-		(at 54.61 62.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8db71a2-c48d-450b-b3a4-7a30da9a34ce")
-		(property "Reference" "#PWR126"
-			(at 58.42 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2.5VA"
-			(at 50.8 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 54.61 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59687a56-8c9e-406b-9515-3c08c84717d5")
-		)
-		(instances
-			(project "E4"
-				(path "/7664cc8d-15c4-46a0-b3f4-8b4373008b19/9fef91b3-c249-4f89-a1c5-148e02aa4c86"
-					(reference "#PWR126")
 					(unit 1)
 				)
 			)

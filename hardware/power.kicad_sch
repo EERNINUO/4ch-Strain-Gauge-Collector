@@ -4718,7 +4718,7 @@
 			)
 		)
 	)
-	(hierarchical_label "V_{REF}"
+	(hierarchical_label "V_{REF_OUT}"
 		(shape input)
 		(at 135.89 38.1 180)
 		(effects
@@ -4727,7 +4727,7 @@
 			)
 			(justify right)
 		)
-		(uuid "52a1c8cc-746a-407a-aaad-ccd80ea6b634")
+		(uuid "3857a343-b939-4454-acdd-8963eecae491")
 	)
 	(netclass_flag ""
 		(length 2.54)

@@ -1,0 +1,16 @@
+### Missing 3D models - created on 2026-06-04 19:45
+### Printed by checking_3D_models plugin
+Board file: C:\Users\18902\Desktop\创新创业实践\Hardware\4ch-Strain-Gauge-Collector\hardware\E4.kicad_pcb
+3D missing models written to:
+C:\Users\18902\Desktop\创新创业实践\Hardware\4ch-Strain-Gauge-Collector\hardware\E4_missing3Dmodels.txt
+-------
+('SW2', 'C:\\Users\\18902\\Desktop\\创新创业实践\\Hardware\\4ch-Strain-Gauge-Collector\\hardware\\EASYEDA_MODELS\\SW-TH_G-SWITCH-PS-22F03N.step')
+('J5', 'E:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Connector_RJ.3dshapes\\RJ45_Amphenol_54602-x08_Horizontal.step')
+('J2', 'E:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Connector_RJ.3dshapes\\RJ45_Amphenol_54602-x08_Horizontal.step')
+('J6', 'E:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Connector_USB.3dshapes\\USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked.step')
+('J4', 'E:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Connector_RJ.3dshapes\\RJ45_Amphenol_54602-x08_Horizontal.step')
+('J7', 'E:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Connector_BarrelJack.3dshapes\\BarrelJack_Kycon_KLDX-0202-xC_Horizontal.step')
+('J3', 'E:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Connector_RJ.3dshapes\\RJ45_Amphenol_54602-x08_Horizontal.step')
+-------
+NUM of 3D missing models:7
+checked extensions ['.stp', '.step', '.stpZ']

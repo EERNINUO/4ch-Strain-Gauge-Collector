@@ -10741,7 +10741,7 @@
 		)
 		(uuid "94c20c63-493c-43cd-8864-6ac3e541244c")
 	)
-	(hierarchical_label "V_{REF}"
+	(hierarchical_label "V_{REF_OUT}"
 		(shape input)
 		(at 53.34 57.15 0)
 		(effects
