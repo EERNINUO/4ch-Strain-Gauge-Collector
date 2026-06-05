@@ -15644,7 +15644,7 @@
 				)
 			)
 		)
-		(property "Value" "25MHz"
+		(property "Value" "24MHz"
 			(at 29.21 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
