@@ -12,7 +12,7 @@
     <img alt="仓库状态" src="https://img.shields.io/badge/status-设计中-blue">
   </a>
   <a href="https://github.com/EERNINUO/4ch-Strain-Gauge-Collector" style="margin: 2px;">
-    <img alt="GitHub 仓库星标" src="https://img.shields.io/github/stars/EERNINUO/ArbWave30">
+    <img alt="GitHub 仓库星标" src="https://img.shields.io/github/stars/EERNINUO/4ch-Strain-Gauge-Collector">
   </a>
   <br/>
   <a href="https://raw.githubusercontent.com/EERNINUO/4ch-Strain-Gauge-Collector/main/LICENSE" style="margin: 2px;">
@@ -76,6 +76,7 @@
 | 版本管理 | Git + GitHub | - |
 
 ## 📁 仓库结构
+'''text
 4ch-Strain-Gauge-Collector/
 ├── docs/                     # 设计文档  
 │   ├── pic/                  # 文档中用到的图片  
@@ -89,6 +90,7 @@
 │   └── LICENSE # CERN-OHL-S-2.0     
 ├── README.md                 # 项目说明  
 └── LICENSE                   # GPL-3.0  
+'''
 
 ## 📜 许可证
 Copyright © 2026 EERNINUO
