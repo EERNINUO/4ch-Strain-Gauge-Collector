@@ -76,7 +76,7 @@
 | 版本管理 | Git + GitHub | - |
 
 ## 📁 仓库结构
-'''text
+```text
 4ch-Strain-Gauge-Collector/
 ├── docs/                     # 设计文档  
 │   ├── pic/                  # 文档中用到的图片  
@@ -89,8 +89,8 @@
 |   ├── E4                    # Kicad 原理图与 PCB 文件  
 │   └── LICENSE # CERN-OHL-S-2.0     
 ├── README.md                 # 项目说明  
-└── LICENSE                   # GPL-3.0  
-'''
+└── LICENSE                   # GPL-3.0
+```
 
 ## 📜 许可证
 Copyright © 2026 EERNINUO
