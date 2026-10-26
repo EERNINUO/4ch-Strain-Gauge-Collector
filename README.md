@@ -8,20 +8,20 @@
 基于 STM32G473，内置 ADC + 高速 SRAM 缓冲 + USB 触发同步
 
 <p align="center">
-  <a href="https://github.com/EERNINUO/ArbWave30" style="margin: 2px;">
+  <a href="https://github.com/EERNINUO/4ch-Strain-Gauge-Collector" style="margin: 2px;">
     <img alt="仓库状态" src="https://img.shields.io/badge/status-设计中-blue">
   </a>
-  <a href="https://github.com/EERNINUO/ArbWave30" style="margin: 2px;">
+  <a href="https://github.com/EERNINUO/4ch-Strain-Gauge-Collector" style="margin: 2px;">
     <img alt="GitHub 仓库星标" src="https://img.shields.io/github/stars/EERNINUO/ArbWave30">
   </a>
   <br/>
-  <a href="https://raw.githubusercontent.com/EERNINUO/ArbWave30/main/LICENSE" style="margin: 2px;">
+  <a href="https://raw.githubusercontent.com/EERNINUO/4ch-Strain-Gauge-Collector/main/LICENSE" style="margin: 2px;">
     <img src="https://img.shields.io/badge/License-GPL--3.0-red" alt="许可证">
   </a>
-  <a href="https://raw.githubusercontent.com/EERNINUO/ArbWave30/main/LICENSE" style="margin: 2px;">
+  <a href="https://raw.githubusercontent.com/EERNINUO/4ch-Strain-Gauge-Collector/main/LICENSE" style="margin: 2px;">
     <img src="https://img.shields.io/badge/License-CC--BY--SA--4.0-green" alt="许可证">
   </a>
-  <a href="https://raw.githubusercontent.com/EERNINUO/ArbWave30/main/LICENSE" style="margin: 2px;">
+  <a href="https://raw.githubusercontent.com/EERNINUO/4ch-Strain-Gauge-Collector/main/LICENSE" style="margin: 2px;">
     <img src="https://img.shields.io/badge/License-CERN--OHL--S--2.0-blue" alt="许可证">
   </a>
 </p>
